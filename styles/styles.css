@@ -1,6 +1,7 @@
 body {
 	font-family: "Montserrat", sans-serif;
 	background-color: #e5e5e5;
+	margin: 0 auto;
 }
 
 .main {
@@ -9,11 +10,12 @@ body {
 	flex-direction: row-reverse;
 	background-color: #f5f7fa;
 	width: 1200px;
-	margin: 0 auto;
+	box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
 }
 
 .main-content {
 	background-color: #fff;
+	padding: 105px 90px;
 }
 
 /*stylebar styles*/
@@ -28,22 +30,148 @@ body {
 	margin-bottom: 50px;
 }
 
-.project-title {
-	font-size: 45px;
-	color: blue;
+.side-bar-title {
+	color: #ffffff;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 22px;
+	line-height: 27px;
+	margin-bottom: 10px;
 }
 
+.contacts,
+.tech-skills,
+.soft-skills {
+	margin-left: 40px;
+}
+
+.contacts {
+	margin-bottom: 50px;
+}
+
+.tech-skills {
+	margin-bottom: 45px;
+}
+
+.tech-skills-list,
+.soft-skills-list {
+	color: #ffffff;
+	padding: 0;
+	margin-left: 15px;
+}
+
+.tech-skills-item,
+.soft-skills-item {
+	color: #fb6d3a;
+}
+
+.tech-skills-text,
+.soft-skills-text {
+	color: #fff;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 24px;
+}
+
+.contact-type {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 24px;
+	color: #ffffff;
+	margin-right: 5px;
+}
+
+.contact-link {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 24px;
+	color: #ffffff;
+	opacity: 0.5;
+}
+
+.title {
+	/* font-size: 45px; */
+	font-style: normal;
+	font-weight: bold;
+	font-size: 22px;
+	line-height: 27px;
+	/* identical to box height */
+
+	color: #000000;
+	margin-bottom: 10px;
+}
+
+/* about developer information */
 .about {
+	margin-bottom: 40px;
 }
 
-/* */
+.about-position {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 17px;
+	margin-bottom: 20px;
+}
+
+.about-name {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 45px;
+	line-height: 55px;
+	color: #000000;
+	margin-bottom: 25px;
+}
+
+.about-description {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 24px;
+	color: #595959;
+	width: 400px;
+}
 
 .projects {
 	margin-bottom: 40px;
 }
 
+.project-item {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 24px;
+	color: #000000;
+}
+
+.project,
+.project-link {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 24px;
+	color: #595959;
+	margin-left: 10px;
+}
+
+.project-backet {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 24px;
+	color: #000000;
+}
+
+.projects-list {
+	padding: 0;
+	margin-left: 15px;
+}
+
 /* worck styles */
-.work {
+. {
 	padding-top: 100px;
 	padding-bottom: 50px;
 	padding-left: 20px;
