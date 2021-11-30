@@ -17,9 +17,15 @@ body {
 }
 
 /*stylebar styles*/
-.aside-bar {
-	/* margin-top: 40px; */
+.side-bar {
+	padding-top: 40px;
+	width: 370px;
 	background-color: #1e2939;
+}
+
+.photo {
+	width: 370px;
+	margin-bottom: 50px;
 }
 
 .project-title {
