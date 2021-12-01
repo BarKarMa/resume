@@ -1,11 +1,12 @@
 body {
 	font-family: "Montserrat", sans-serif;
 	background-color: #e5e5e5;
-	margin: 0 auto;
+	
 }
 
 .main {
 	display: flex;
+	margin: 0 auto;	
 	/* flex-direction: row; */
 	flex-direction: row-reverse;
 	background-color: #f5f7fa;
@@ -98,8 +99,6 @@ body {
 	font-weight: bold;
 	font-size: 22px;
 	line-height: 27px;
-	/* identical to box height */
-
 	color: #000000;
 	margin-bottom: 10px;
 }
@@ -136,7 +135,7 @@ body {
 }
 
 .projects {
-	margin-bottom: 40px;
+	margin-bottom: 50px;
 }
 
 .project-item {
@@ -170,15 +169,86 @@ body {
 	margin-left: 15px;
 }
 
-/* worck styles */
-. {
-	padding-top: 100px;
+/* work styles */
+
+.work {
+	/* padding-top: 100px;
 	padding-bottom: 50px;
 	padding-left: 20px;
-	padding-right: 40px;
+	padding-right: 40px; */
+}
+
+
+.work-position {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 20px;
+	color: #000000;
+	margin-bottom: 10px;
+}
+
+.organization {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 20px;
+	color: #FB6D3A;
+	
+}
+
+.period {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 15px;
+	color: #A8A8A8;
+	margin-bottom: 10px;
+}
+
+.line {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 15px;
+	color: #000000;
+}
+
+.work-list {
+	padding: 0;
+	margin-left: 15px;
+}
+
+.work-list-item {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 24px;
+	color: #595959;
 }
 
 /* styles education */
 
+
 .education {
+	
+}
+
+.university {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 20px;
+	color: #FB6D3A;
+	margin-bottom: 10px;
+
+}
+
+.faculty {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 17px;
+	color: #000000;
+	margin-bottom: 10px;
 }
