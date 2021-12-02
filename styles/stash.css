@@ -3,39 +3,30 @@ body {
 	background-color: #e5e5e5;
 }
 
-.container {
-	width: 320px;
-	margin: 0 auto;
-}
-
 .main {
-	/* display: flex;
+	display: flex;
 	margin: 0 auto;
-  width: 1200px; */
 	/* flex-direction: row; */
-
-	/* flex-direction: row-reverse; */
+	flex-direction: row-reverse;
 	background-color: #f5f7fa;
-
+	width: 1200px;
 	box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
 }
 
 .main-content {
 	background-color: #fff;
-	/* padding: 105px 90px; */
-	padding: 5px 20px;
+	padding: 105px 90px;
 }
 
 /*stylebar styles*/
 .side-bar {
 	padding-top: 40px;
-	width: 320px;
+	width: 370px;
 	background-color: #1e2939;
-	padding-bottom: 20px;
 }
 
 .photo {
-	width: 320px;
+	width: 370px;
 	margin-bottom: 50px;
 }
 
@@ -105,7 +96,7 @@ body {
 	/* font-size: 45px; */
 	font-style: normal;
 	font-weight: bold;
-	font-size: 34px;
+	font-size: 22px;
 	line-height: 27px;
 	color: #000000;
 	margin-bottom: 10px;
@@ -113,13 +104,13 @@ body {
 
 /* about developer information */
 .about {
-	margin-bottom: 30px;
+	margin-bottom: 40px;
 }
 
 .about-position {
 	font-style: normal;
 	font-weight: bold;
-	font-size: 18px;
+	font-size: 14px;
 	line-height: 17px;
 	margin-bottom: 20px;
 }
@@ -127,8 +118,8 @@ body {
 .about-name {
 	font-style: normal;
 	font-weight: bold;
-	font-size: 28px;
-	line-height: 20px;
+	font-size: 45px;
+	line-height: 55px;
 	color: #000000;
 	margin-bottom: 25px;
 }
@@ -139,11 +130,11 @@ body {
 	font-size: 14px;
 	line-height: 24px;
 	color: #595959;
-	width: 92%;
+	width: 400px;
 }
 
 .projects {
-	margin-bottom: 30px;
+	margin-bottom: 50px;
 }
 
 .project-item {
@@ -161,7 +152,7 @@ body {
 	font-size: 14px;
 	line-height: 24px;
 	color: #595959;
-	margin-left: 2px;
+	margin-left: 10px;
 }
 
 .project-backet {
@@ -170,7 +161,6 @@ body {
 	font-size: 14px;
 	line-height: 24px;
 	color: #000000;
-	margin-left: 10px;
 }
 
 .projects-list {

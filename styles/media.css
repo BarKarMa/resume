@@ -1,0 +1,55 @@
+@media (min-width: 321px) {
+}
+
+@media (min-width: 700px) {
+	.container {
+		width: 1200px;
+		margin: 0 auto;
+	}
+
+	.main {
+		display: flex;
+		margin: 0 auto;
+		/* flex-direction: row; */
+		flex-direction: row-reverse;
+	}
+
+	.main-content {
+		padding: 105px 90px;
+	}
+
+	.side-bar {
+		width: 370px;
+	}
+
+	.contacts,
+	.tech-skills,
+	.soft-skills {
+		margin-left: 40px;
+	}
+
+	.contacts {
+		margin-bottom: 50px;
+	}
+
+	.tech-skills {
+		margin-bottom: 45px;
+	}
+
+	.about {
+		margin-bottom: 40px;
+	}
+
+	.about-name {
+		font-size: 45px;
+		line-height: 55px;
+	}
+
+	.about-description {
+		width: 400px;
+	}
+
+	.projects {
+		margin-bottom: 50px;
+	}
+}
