@@ -1,2 +1,2 @@
-# resume
-Making html + css resume. Online course
+# My resume
+
